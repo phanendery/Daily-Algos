@@ -3,7 +3,7 @@ const binarySearch = (array, target) => {
   let endIndex = array.length - 1;
   while(startIndex <= endIndex) {
     let middleIndex = Math.floor((startIndex + endIndex) / 2);
-    if(target === array[middleIndex) {
+    if(target === array[middleIndex]) {
       return console.log("Target was found at index " + middleIndex);
     }
     if(target > array[middleIndex]) {
@@ -23,7 +23,8 @@ const binarySearch = (array, target) => {
 }
 
 
-let array = [3,5,4,8,11,1,-1,6];
-targetSum = 10;
+
+let array = [3,];
+targetSum = 5;
 
 console.log(binarySearch(array,targetSum));
