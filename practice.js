@@ -1,10 +1,18 @@
-function test(string, key) {
-  const alpha = "abcdefghijklmnopqrstuvwxyz".split("");
-  console.log(alpha);
-  //key and string values and add em accordingly 
+function test(n) {
+  //use pointers
+ if(n===1){
+   return 0;
+ }
+ else if (n===2){
+   return 1;
+ }
+ else{
+   return test(n-1) + test(n-2);
+ }
 }
+//sum of n-1 and n-2
 
-let string = "abc";
-const key = 3;
+let n = 6
+;
 
-console.log(test(string, key));
+console.log(test(n));
