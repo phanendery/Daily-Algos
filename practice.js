@@ -1,18 +1,13 @@
-function test(n) {
+function threeSum(n) {
   //use pointers
- if(n===1){
-   return 0;
- }
- else if (n===2){
-   return 1;
- }
- else{
-   return test(n-1) + test(n-2);
- }
+
 }
 //sum of n-1 and n-2
 
-let n = 6
-;
+let array = [12,3,1,2,-6,5,-8,6];
+let targetSum = 0;
+//has to be in order
 
-console.log(test(n));
+
+console.log(threeSum(array,targetSum));
+  
