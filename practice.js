@@ -2,7 +2,7 @@ function threeSum(n) {
   //use pointers
 
 }
-//sum of n-1 and n-2
+//no idea how to tackle this
 
 let array = [12,3,1,2,-6,5,-8,6];
 let targetSum = 0;
