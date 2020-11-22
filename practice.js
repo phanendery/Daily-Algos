@@ -1,7 +1,4 @@
-function threeSum(n) {
-  //use pointers
 
-}
 //no idea how to tackle this
 
 let array = [12,3,1,2,-6];
