@@ -1,13 +1,11 @@
-function threeSum(n) {
-  //use pointers
-
+class BST {
+  constructor(value) {
+    this.value = value;
+    this.left = null;
+    this.right = null;
+  }
 }
 
-
-let array = [12,3,1,2,-6];
-let targetSum = 0;
-//has to be in order
-
-
-console.log(threeSum(array,targetSum));
-  
+function findClosestValueInBst(tree, target) {
+  // Write your code here.
+}
